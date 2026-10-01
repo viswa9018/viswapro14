@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Absolute and fixed positioning</title>
+
+    <style>
+        p {
+            margin: 0;
+        }
+
+        body {
+            width: 550px;
+            padding: 0 25px 20px;
+            border: 1px solid black;
+
+            /* TODO 1: Set the body positioning context */
+        }
+
+        aside {
+            width: 80px;
+            padding: 1em;
+            border: 1px solid black;
+
+            /* TODO 2: Use absolute positioning */
+            /* TODO 3: Position the aside 30px from the right */
+            /* TODO 4: Position the aside 50px from the top */
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>Our speakers this season</h1>
+
+        <ul>
+            <li>
+                October:
+                <a class="date_passed" href="speakers/toobin.html">
+                    Jeffrey Toobin
+                </a>
+            </li>
+
+            <li>
+                November:
+                <a class="date_passed" href="speakers/sorkin.html">
+                    Andrew Ross Sorkin
+                </a>
+            </li>
+
+            <li>
+                January:
+                <a href="speakers/chua.html">
+                    Amy Chua
+                </a>
+            </li>
+        </ul>
+
+        <p>Please contact us for tickets.</p>
+    </main>
+
+    <aside>
+        <p>
+            <a href="raffle.html">
+                Enter to win a free ticket!
+            </a>
+        </p>
+    </aside>
+</body>
+</html>
